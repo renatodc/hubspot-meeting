@@ -1,0 +1,3 @@
+For code readability, I would add comments for each section of code in the worker.js methods. The variables are properly named, so only comments for additional clarity would suffice.
+For project architecture, I would refactor the processing methods in worker.js, by extracting repeated logic into helper functions. For example, populating the account variable and retrieving the last modified dates. I would also refactor the error handling procedures.
+For code performance, I would only call refreshAccessToken once. I would also try optimizing the queue methods to avoid writing too much data to the database at once.
